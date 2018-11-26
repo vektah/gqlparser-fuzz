@@ -1,0 +1,6 @@
+extend scalar o@d
+extend type o@d
+extend interface o@d
+extend union o@e@d
+extend enum o@d
+extend input o@d

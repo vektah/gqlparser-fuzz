@@ -1,0 +1,8 @@
+"""""
+
+""
+""
+# Even with comments between them
+type Hello {
+  world: String
+}
