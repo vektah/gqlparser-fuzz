@@ -1,0 +1,4 @@
+scalar Boolean
+directive@d(f: Boolean)on INLINE_FRAGMENT#
+directive@k(i:Boolean)on|INLINE_FRAGMENT
+directive@ee(r:S)on FIELD

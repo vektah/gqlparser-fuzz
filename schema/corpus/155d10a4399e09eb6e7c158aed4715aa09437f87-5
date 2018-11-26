@@ -1,0 +1,14 @@
+scalar t
+scalar t
+scalar g
+scalar n#
+scalar t#
+scalar t#
+scalar g#
+scalar n#
+scalar D#
+directive@e(f:n)on|INLINE_FRAGMENT#
+directive@p(f:n)on|INLINE_FRAGMENT#
+directive@d(n:g)on|ENUM
+type a{s:[e]}type e{n:g}type d{n:g}type e{e:g}type e{n:g}enum d{L}type e{s:[e]}enum n{N}scalar D
+d

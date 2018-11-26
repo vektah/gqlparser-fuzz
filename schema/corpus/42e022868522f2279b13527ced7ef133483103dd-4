@@ -1,0 +1,7 @@
+scalar nt#
+scalar at#
+scalar ng#
+scalar Boolean#
+scalar ID#
+directive@de(if:Boolean)on|INLINE_FRAGMENT#
+directive@ip(if:Boolean)on|INLINE_FRAGMENT

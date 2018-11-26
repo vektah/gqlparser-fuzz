@@ -9,3 +9,9 @@ query-fuzz.zip:
 
 fuzz-query: query-fuzz.zip
 	go-fuzz -bin=./query-fuzz.zip -workdir=query
+
+validation-fuzz.zip:
+	go-fuzz-build github.com/vektah/gqlparser-fuzz/validation
+
+fuzz-validation: validation-fuzz.zip
+	go-fuzz -bin=./validation-fuzz.zip -workdir=validation

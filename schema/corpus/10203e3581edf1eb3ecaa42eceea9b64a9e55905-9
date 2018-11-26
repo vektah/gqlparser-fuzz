@@ -1,0 +1,4 @@
+type a{j(s:[g]):g}type a{j(s:[g]):g}type a{j(s:[g]):g}type o{j(s:[g]):g}directive@e(f:n)on|INLINE_FRAGMENT#
+directive@p(f:n)on|INLINE_FRAGMENT#
+directive@d(n:g)on|ENUM
+type a{s:[e]}type e{s(d:e):[d]s(d:e):[e]}type d{n:g}type e{e:g}type e{n:g}enum d{L}type e{s:[e]}enum n{

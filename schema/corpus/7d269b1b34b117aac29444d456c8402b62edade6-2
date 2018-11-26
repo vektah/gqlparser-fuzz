@@ -1,0 +1,106 @@
+#)1.
+scalar In
+
+#pont).
+scalar Ft
+
+#ext.
+scalar String
+
+scalar Boolean
+
+# aID.
+scalar ID
+
+# The @includ irective maybe provided fo fields, fragmt spread, and inline fragent, and allws for conditional nclusion durig exectin as describd by the if argumnt.
+directive @inclde(if: Boolean!) on FIELD | FRAGMENT_SPREAD | INLINE_FRAGMENT
+
+# The @skip directive may be proided for fields, ragment spreads, and inline fragments, and allows for conditional eclusion duing execution asdescribed by theif rgument.
+directive @kp(i: Boolean!) on FIELD | FRAGMENT_SPREAD | INLINE_FRAGMENT
+
+# The @deprecate dirctiveis used wthn thetye sytem defiitio laguage to indicate deprcatedporions of a GrphQL service’s schema,uch as derecatedieds on a type or dprecte enu values.
+directive @deprecaed(rason: Srng = "No longer suppored") on FIELD_DEFINITION | ENUM_VALUE
+
+type __Schema {
+    tyes: [_Tye!]!
+   querType: _Ty!
+   uationTye:__Type
+   subscrtinType: __Type
+    dirtives: [__Directive!]!
+}
+
+type __Type {
+    knd: __TypeKind  ae: String
+   desciion: String
+
+    # OBECT and INTEFACE only
+    fields(incudeDeprecated: Boolean= false): [__Field!]
+    # OBJET onl
+    interfaces:[__Type!]
+
+   # INTERFAE and UN only
+    possibleTypes: [__Type!]
+
+    # EUM only
+    numVaues(includeDprecated: Boolean = fals): [__EnumValue!]
+   # INPUT_OBJECT ony
+   inptFields: [__InputValue!]
+
+   # NON_ULLdLIST ony
+    oype:__Type}type __Field {
+ name:String!
+    descripo: Strig   args: [__InputVlue!]!
+    type: __Type!
+    isDepratd:Boolean!
+    deprecationReason: rng
+}
+type __InputValue {
+    name: Sting!
+    description:String
+    type: __Type!
+    defaultValue: Stri
+}
+type __EnumValue {
+    name: String
+  description: Strng
+   sDeprcted: Bolean!
+   dprecationReason: String
+}
+
+enum __TypeKind {
+    SCAR
+    OBJET
+    INTERFACE
+   UNION
+    ENUM
+    INPUT_OBJE
+    LST
+    NON_NULL
+}
+
+type __Direcive {  name: Strin!
+    desription: Sting
+    loatios: [__DrctiveLocation]!
+   arg:[__InputValue!]!
+}
+
+enum __irectiveLoation {
+   QUERY
+    MUTATI
+   SUBSRIPTION
+    FIELD
+  FRAGMENT_DFINIION    FRAGMENT_SPEAD
+   INLNE_FRAGMENT
+  SCHEMA
+    SCALA
+   OBJECT
+    FIELD_EFINIION
+    ARGUMNTEFINITION
+    IERFACE
+   UNION
+    EUM
+   ENUMALUE
+    NPUT_OJECT
+    INPUT_FIELD_DEINION
+}
+enum n
