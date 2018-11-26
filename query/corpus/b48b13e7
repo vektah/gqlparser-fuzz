@@ -1,0 +1,8 @@
+query subscription {
+  ... subscription
+  ... on subscription { field }
+}
+fragment subscription on Type {
+  subscription(subscription: $subscription)
+    @subscription(subscription: subscription)
+}

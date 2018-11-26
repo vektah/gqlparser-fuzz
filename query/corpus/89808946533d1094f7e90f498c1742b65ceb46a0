@@ -1,0 +1,1 @@
+query true {  ... true  ... on true { field }}fragment true on Type {  true(true: $true)    @true(true: true)}

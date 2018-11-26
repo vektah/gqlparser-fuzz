@@ -1,0 +1,1 @@
+query Foo($x: Complex = { a: { b: [ $var ] } }) { field }

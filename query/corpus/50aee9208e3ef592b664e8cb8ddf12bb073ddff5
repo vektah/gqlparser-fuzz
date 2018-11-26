@@ -1,0 +1,2 @@
+# This comment has a ਊ multi-byte character.
+{field(arg:"Has a ਊ multi-byte character.")}

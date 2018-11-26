@@ -1,0 +1,8 @@
+query on {
+  ... a
+  ... on on { field }
+}
+fragment a on Type {
+  on(on: $on)
+    @on(on: on)
+}
