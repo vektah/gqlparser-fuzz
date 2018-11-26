@@ -1,0 +1,1 @@
+{...e}fragment x on e{...on __DirectiveLocation{...e}}fragment e on n{...x}

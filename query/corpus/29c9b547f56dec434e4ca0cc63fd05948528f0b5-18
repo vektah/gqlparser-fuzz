@@ -1,0 +1,1 @@
+{...e}fragment e on Character{a...{friends{...e}...e}}
