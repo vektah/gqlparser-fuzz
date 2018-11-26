@@ -1,0 +1,1 @@
+query($foo:B){r{d{s(f:$foo)e(f:$foo)e(f:$foo)e(f:$foo)e(f:$foo)e(f:$foo)e(f:$foo)e(f:$foo)e(f:$foo)}}}

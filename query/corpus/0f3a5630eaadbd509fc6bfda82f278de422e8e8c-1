@@ -1,0 +1,7 @@
+query n{
+...a
+...n on { field }
+}
+fragment a on Typ {
+  on(o: on)
+}

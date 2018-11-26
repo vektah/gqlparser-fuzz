@@ -1,0 +1,1 @@
+fragment r on e{...O}fragment O on e{}fragment e on e{...r}fragment e on e{}{...e}fragment r on C

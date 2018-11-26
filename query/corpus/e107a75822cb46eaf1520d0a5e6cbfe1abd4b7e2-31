@@ -1,0 +1,1 @@
+{...e}fragment e on SearchResult{homePlanet{...{...{...{...{...{...{...e}}}}}}}}{...e}{...e}{...e}

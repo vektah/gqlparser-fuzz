@@ -1,0 +1,1 @@
+query ($foo:e$site:E){r{r{d{e{...frag}}}p(s:$foo)}}subscription ($input:t){e(t:$input)}fragment frag on d{o(e:$site)}

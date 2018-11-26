@@ -1,0 +1,1 @@
+fragment e on SearchResult{...{...{...on __Field{...e}}}}

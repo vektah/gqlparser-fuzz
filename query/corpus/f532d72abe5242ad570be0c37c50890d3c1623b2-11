@@ -1,0 +1,1 @@
+fragment n on __InputValue{...n...n...{...{...n...n...{}...n}}...n}
