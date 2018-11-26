@@ -1,0 +1,6 @@
+extend scalar Foo @deprecated
+extend type Foo @deprecated
+extend interface Foo @deprecated
+extend union Foo @deprecated
+extend enum Foo @deprecated
+extend input Foo @deprecated
